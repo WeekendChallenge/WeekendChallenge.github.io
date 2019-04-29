@@ -2,11 +2,13 @@ h1 {
 	font-family:Verdana;
 	text-align: center;
 	font-size: 72px;
+	color:white;
 }
 p {
 	font-family:Arial;
 	text-align: center;
 	font-size:25px;
+	color:white;
 }
 .arial {
 	font-family:Arial;
@@ -59,6 +61,7 @@ p {
 }
 h2 {
 	font-size:40px;
+	color:white;
 }
 .margin {
 	width:900px;
