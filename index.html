@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<head>
+<title> WeekendChallenge </title>
+<style> 
+.column {
+    float: left;
+    width: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+    
+</style>
+<link rel="stylesheet" href="index.css">
+<link rel="icon" type="image/vnd.microsoft.icon"
+     href="ico.ico" />
+</head>
+<body background="wc_background.png">
+
+<div class=center>
+<h1>Welcome to the CatBird WeekendChallenge Boards</h1>
+<p>site by: SioN</p>
+
+<div class=center>
+<button id="myButton" class="arial btn" >CatBird Discord</button>
+<button id="myButton1" class="arial btn" >Past WeekendChallenges</button>
+<button id="myButton2" class="arial btn" >User Database</button>
+</div>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "https://discord.gg/HDZGs9Q";
+    };
+       document.getElementById("myButton1").onclick = function () {
+        location.href = "Challenges.html";
+    };
+       document.getElementById("myButton2").onclick = function () {
+        location.href = "User.html";
+    };
+</script>
+
+<h1>IT HASNT BEEN DECIDED YET ON HOW WE AWARD POINTS</h1>
+
+    
+</body>
+</html>
