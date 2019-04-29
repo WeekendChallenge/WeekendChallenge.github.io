@@ -2,13 +2,13 @@ h1 {
 	font-family:Verdana;
 	text-align: center;
 	font-size: 72px;
-	color:white;
+	font-color:white;
 }
 p {
 	font-family:Arial;
 	text-align: center;
 	font-size:25px;
-	color:white;
+	font-color:white;
 }
 .arial {
 	font-family:Arial;
@@ -61,7 +61,7 @@ p {
 }
 h2 {
 	font-size:40px;
-	color:white;
+	font-color:white;
 }
 .margin {
 	width:900px;
@@ -89,3 +89,6 @@ h2 {
 a:hover {
     background-color: yellow;
 }
+a {
+	font-color:white;
+]
