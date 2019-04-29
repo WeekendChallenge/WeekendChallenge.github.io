@@ -24,7 +24,7 @@ header {
 }
 
 header .header-btn, header .header-btn::before {
-	/* transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); */
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 
 header .header-btn {
